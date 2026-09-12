@@ -1,0 +1,21 @@
+# Local and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.log
+~$*
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets/
+private-data/
+
+# Tool and editor state
+.vscode/
+.idea/
+.codex/
